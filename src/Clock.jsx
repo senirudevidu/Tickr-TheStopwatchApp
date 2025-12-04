@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, createContext } from "react";
 import "./Clock.css";
 import Button from "./Button.jsx";
 import Lap from "./Lap.jsx";
+import Notch from "./Notch.jsx";
 
 export const ButonContext = createContext();
 
@@ -33,7 +34,6 @@ function Clock() {
   }, [isRunning]);
 
   function start() {
-    console.log("start clicked");
     setIsRunning(true);
     startTimeRef.current = Date.now() - elapsedTime;
     console.log("startTimeRef.current:", startTimeRef.current);
@@ -64,6 +64,7 @@ function Clock() {
 
   return (
     <>
+      <Notch />
       <div className="clock">
         <div className="display">{formatTime(elapsedTime)}</div>
 
