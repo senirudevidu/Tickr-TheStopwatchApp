@@ -3,7 +3,7 @@ import Clock from "./Clock.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="myClock">
       <Clock />
     </div>
   );

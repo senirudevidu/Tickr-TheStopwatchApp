@@ -3,20 +3,29 @@
   color: white;
   max-height: 400px;
   width: 414px;
+  border-bottom: 1px solid #333;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .btns {
   display: flex;
-  gap: 20px;
+  gap: 200px;
   flex-direction: row;
   justify-content: center;
   padding: 30px;
 }
 
 .display {
-  font-size: 4rem;
-  margin-bottom: 20px;
-  font-family: "Orbitron", sans-serif;
-  text-align: center;
-  padding: 100px 0 60px 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  font-family: "Roboto Mono", "SF Mono", Menlo, Monaco, "Courier New", monospace;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1;
+  margin: 6px 0 18px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  transition: font-size 0.12s ease;
 }

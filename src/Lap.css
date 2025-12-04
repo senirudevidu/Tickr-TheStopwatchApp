@@ -1,0 +1,13 @@
+.lap {
+  background-color: black;
+  color: white;
+  height: 400px;
+  width: 414px;
+  border-bottom: 1px solid #333;
+}
+
+.lap-item {
+  padding: 5px;
+  border-bottom: 1px solid #333;
+  color: #ffffff;
+}

@@ -26,7 +26,7 @@
   height: 50px;
   border-radius: 50%;
   background: #333333;
-  color: #fff;
+  color: #f2f2f2;
   border: none;
   cursor: pointer;
 
@@ -47,4 +47,14 @@
 .btn:active {
   transform: scale(0.96);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.Start-btn {
+  background: #112a14;
+  color: #6eab72;
+}
+
+.Stop-btn {
+  background: #330d0e;
+  color: #ec3f42;
 }
