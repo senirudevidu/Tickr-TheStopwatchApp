@@ -15,6 +15,7 @@ function Lap(props) {
             ))
           : null}
       </div>
+      <div className="footer"></div>
     </div>
   );
 }

@@ -10,9 +10,9 @@
 }
 
 .dynamic-island {
-  background-color: #747474;
   width: 134px;
   height: 32px;
   border-radius: 16px;
   margin: 10px;
+  border: white 1px solid;
 }
