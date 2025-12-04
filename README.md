@@ -146,10 +146,8 @@ This project uses Git for version control and is hosted on GitHub, providing exp
 - **Component Design**: Creating reusable, maintainable component architecture
 - **Version Control**: Git workflow and GitHub integration
 
-## 📄 License
+## 📄 Screenshots
 
-This project is created for educational purposes as part of learning React development.
-
----
+## ![Color Picker UI Screenshot](screenshots/Tickr.png)
 
 Built with ❤️ while learning React, hooks, and modern web development practices.
