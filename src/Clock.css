@@ -1,0 +1,22 @@
+.clock {
+  background-color: black;
+  color: white;
+  max-height: 400px;
+  width: 414px;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.display {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  padding: 100px 0 60px 0;
+}
