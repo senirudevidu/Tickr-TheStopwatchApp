@@ -12,14 +12,20 @@ function Clock() {
 
   useEffect(() => {
     if (isRunning) {
-      setInterval(() => {
+      intervalIdRef.current = setInterval(() => {
         setElapsedTime(Date.now() - startTimeRef.current);
       }, 10);
+    } else {
+      if (intervalIdRef.current) {
+        clearInterval(intervalIdRef.current);
+        intervalIdRef.current = null;
+      }
     }
 
     return () => {
       if (intervalIdRef.current) {
         clearInterval(intervalIdRef.current);
+        intervalIdRef.current = null;
       }
     };
   }, [isRunning]);
